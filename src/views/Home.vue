@@ -1,18 +1,17 @@
+<!-- Home page for app that contains Products, the products list displayed -->
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Products />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Products from '../components/Product/Products';
 
 export default {
   name: 'Home',
+  inheritAttrs: false,
   components: {
-    HelloWorld
+    Products
   }
 }
 </script>
+

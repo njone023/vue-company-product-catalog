@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <h3>Version 1.0.0</h3>
+    <div class="sales-btn sales-btn-sml">
+        <router-link to="/">Back to Products List</router-link>
+    </div>
 </template>
+
+<script>
+    export default {
+        name: 'About',
+        inheritAttrs: false
+    }
+</script>
